@@ -73,7 +73,9 @@ This project is a web application with two main interfaces:
 4. **Access the Website**
    - Open your browser and navigate to `http://localhost:8000`.
 
-5. screenshots     
+
+ 
+ ### screenshots     
   
 
 ### Flow chart 
@@ -86,13 +88,14 @@ Our goal in the future is to expand our site to all universities in the Kingdom,
 and to develop the site by adding external hackathons that will benefit Imam Muhammad bin Saud Islamic University.
 
 
+### Presentation 
+
 ### Team members
--Fatmah amer Albariqe
--Taif Faris Al-atif 
--  
+-Fatmah amer Albariqe ,Taif Faris Al-atif , 
+  
 
 ### Resources
 1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 2. https://satr.codes/courses/ZlKLfufzmW/view
 3. https://youtu.be/tkGTpdtJeeM?si=wQ-wMLcOjyJsGOaY
-4. 
+4.  
