@@ -79,7 +79,11 @@ This project is a web application with two main interfaces:
  
  ### screenshots  
  
-  file:///C:/Users/wjood/Downloads/Telegram%20Desktop/%D8%B7%D9%85%D9%88%D8%AD.pdf
+![photo_2024-05-22_23-51-47](https://github.com/IdilMohamed/cs346-project/assets/124617575/6a8a534a-bb52-4716-9b58-1172aa5e9bcc)
+![photo_2024-05-22_23-51-54](https://github.com/IdilMohamed/cs346-project/assets/124617575/51049729-d1a3-415f-8c23-4f1a076921bf)
+![photo_2024-05-22_23-52-00](https://github.com/IdilMohamed/cs346-project/assets/124617575/c1ea52a9-ab1e-45b7-9ad8-72ce379fa5a6)
+![photo_2024-05-22_23-52-05](https://github.com/IdilMohamed/cs346-project/assets/124617575/2dd44172-5ca1-4f93-b4bc-97c01494ad0c)
+
 
 ### Flow chart 
 
