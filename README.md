@@ -77,8 +77,9 @@ This project is a web application with two main interfaces:
 
 
  
- ### screenshots     
-  
+ ### screenshots  
+ 
+  file:///C:/Users/wjood/Downloads/Telegram%20Desktop/%D8%B7%D9%85%D9%88%D8%AD.pdf
 
 ### Flow chart 
 
@@ -91,7 +92,7 @@ and to develop the site by adding external hackathons that will benefit Imam Muh
 
 
 ### Presentation 
-
+https://www.canva.com/design/DAGFZS4SheU/5KTUS8KiCanBjX6dpG3F7A/view?utm_content=DAGFZS4SheU&utm_campaign=designshare&utm_medium=link&utm_source=editor
 ### Team members
 -Fatmah amer Albariqe ,Taif Faris Al-atif , wujud bandar binmahaya
   
@@ -100,4 +101,4 @@ and to develop the site by adding external hackathons that will benefit Imam Muh
 1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
 2. https://satr.codes/courses/ZlKLfufzmW/view
 3. https://youtu.be/tkGTpdtJeeM?si=wQ-wMLcOjyJsGOaY
-4.  
+4.  https://www.canva.com/login/?redirect=%2Fdesign%2FDAF6Qulbwho%2F0yEXV49aWA0fLf7BXhYlJw%2Fedit
