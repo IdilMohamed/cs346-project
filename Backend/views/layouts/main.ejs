@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets_new/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets_new/css/styles.css">
+
+    <title>طموح</title>
+</head>
+<body dir="rtl">
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+            <i class="ri-book-3-line"></i> طموح
+        </a>
+
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>الصفحة الرئيسية</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#courses" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>الدورات</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#clubs" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>النوادي</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#hakathons" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>الهاكثونات</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav__actions">
+            <!-- Search button -->
+            <i class="ri-search-line search-button" id="search-button"></i>
+
+            <!-- Login button -->
+            <i class="ri-user-line login-button" id="login-button"></i>
+
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+    </nav>
+</header>
+<!--==================== SEARCH ====================-->
+<div class="search" id="search-content">
+    <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="ماذا تريد البحث عنه ؟" class="search__input">
+    </form>
+
+    <i class="ri-close-line search__close" id="search-close"></i>
+</div>
+<!--==================== LOGIN ====================-->
+<div class="login grid" id="login-content">
+    <form action="/auth-validate" class="login__form grid" method="post">
+        <h3 class="login__title">تسجيل الدخول</h3>
+
+        <div class="login__group grid">
+            <div>
+                <label for="login-email" class="login__label">البريد الإلكتروني </label>
+                <input type="email" name="email" placeholder="أكتب البريد الإلكتروني" id="login-email" class="login__input">
+            </div>
+
+            <div>
+                <label for="login-pass" class="login__label">كلمة المرور</label>
+                <input type="password" name="password" placeholder="أدخل كلمة المرور" id="login-pass" class="login__input">
+            </div>
+        </div>
+        <div>
+                     <span class="login__signup">
+                        ليس لديك حساب ؟ <a href="#">أنشئ حساب</a>
+                     </span>
+            <a href="#" class="login__forgot">
+                لقد نسيت كلمة المرور
+            </a>
+
+            <button type="submit" class="login__button button">سجل الدخول</button>
+        </div>
+    </form>
+
+    <i class="ri-close-line login__close" id="login-close"></i>
+</div>
+<!--==================== MAIN ====================-->
+<main class="main">
+
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__data">
+                <h1 class="home__title">
+                    تصفح قائمة <br>
+                    أفضل الدورات والمعسكرات
+                </h1>
+
+                <p class="home__description">
+                    صل لأفضل الدورات والمعسكرات بمجالك, وتصفح بقية الدورات والمعسكرات
+                    وأستغل خبرات وتجارب مدربينا وطلابنا لتصل إلى هدفك
+                </p>
+
+                <a href="#" class="button">تصفح الآن</a>
+            </div>
+
+            <div class="home__images">
+                <div class="home__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                            <img src="assets_new/img/p1.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="assets_new/img/p2.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="assets_new/img/p3.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="assets_new/img/p4.jpg" alt="image" class="home__img">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== SERVICES ====================-->
+    <section class="services section">
+        <div class="services__container container grid">
+            <article class="services__card">
+                <i class="ri-notification-2-line"></i>
+                <h3 class="services__title">فعل التنبيهات</h3>
+                <p class="services__description">لتصلك أحدث الدورات</p>
+            </article>
+
+            <article class="services__card">
+                <i class="ri-team-line"></i>
+                <h3 class="services__title">مدربيننا</h3>
+                <p class="services__description">تواصل مع أفضل المدربين</p>
+            </article>
+
+            <article class="services__card">
+                <i class="ri-customer-service-2-line"></i>
+                <h3 class="services__title">للإستفسار</h3>
+                <p class="services__description">تواصل معنا في أي وقت</p>
+            </article>
+        </div>
+    </section>
+
+
+     <!--==================== COURSES ====================-->
+     <section class="featured section" id="courses">
+        <h2 class="section__title">
+          الدورات
+        </h2>
+
+        <div class="featured__container container">
+           <div class="featured__swiper swiper">
+              <div class="swiper-wrapper">
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c0.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title"> swiftUI & swift أساسيات لغة </h2>
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">2 April</h5>
+
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">عن بعد</h5>
+
+                    <button class="button">سجل الآن</button>
+
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c1.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title">Phishing attacks</h2>
+                    
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+                    
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">18 September</h5>
+                   
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">قاعة 3001 للطلاب و قاعة 2c-115 للطالبات
+                       </h5>
+
+                    <button class="button">سجل الآن</button>
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c2.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title">معسكر أساسيات لغة البايثون</h2>
+                    
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+                    
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">10 December</h5>
+                    
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">سيتم تحديد الموقع لاحقًا</h5>
+                    
+                    <button class="button">سجل الآن</button>
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c0.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title"> swiftUI & swift أساسيات لغة </h2>
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">2 April</h5>
+
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">عن بعد</h5>
+
+                    <button class="button">سجل الآن</button>
+
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c1.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title">Phishing attacks</h2>
+                    
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+                    
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">18 September</h5>
+                   
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">قاعة 3001 للطلاب و قاعة 2c-115 للطالبات
+                       </h5>
+
+                    <button class="button">سجل الآن</button>
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+
+                 <article class="featured__card swiper-slide">
+                    <img src="assets_new/img/c2.jpg" alt="image" class="courses__img">
+
+                    <h2 class="courses__title">معسكر أساسيات لغة البايثون</h2>
+                    
+                       <i class="ri-building-2-line"></i>
+                       <h5 class="courses__title">جامعة الإمام محمد بن سعود الإسلامية</h5>
+                    
+                       <i class="ri-calendar-2-line"></i>
+                       <h5 class="courses__title">10 December</h5>
+                    
+                       <i class="ri-map-pin-2-line"></i>
+                       <h5 class="courses__title">سيتم تحديد الموقع لاحقًا</h5>
+                    
+                    <button class="button">سجل الآن</button>
+                    <div class="featured__actions">
+                       <button><i class="ri-search-line"></i></button>
+                       <button><i class="ri-heart-3-line"></i></button>
+                       <button><i class="ri-eye-line"></i></button>
+                    </div>
+                 </article>
+              </div>
+              <div class="swiper-button-prev">
+                 <i class="ri-arrow-left-s-line"></i>
+              </div>
+
+              <div class="swiper-button-next">
+                 <i class="ri-arrow-right-s-line"></i>
+              </div>
+           </div>
+        </div>
+     </section>
+
+    <!--==================== hakathons ====================-->
+    <%- body %>
+</main>
+
+<!--==================== JOIN ====================-->
+
+
+<section class="join section">
+    <div class="join__container">
+        <img src="/assets_new/img/p0.jpg" alt="image" class="join__bg">
+
+        <input type="submit">
+
+        <div class="join__data container grid">
+            <h4 class="join__title section__title">
+                <b> تواصل معنا</b>
+
+            </h4>
+
+            <form class="join__form">
+
+
+                <input type="email" placeholder="أدخل البريد الالكتروني" class="join__input"> <br>
+
+                <input type="text" placeholder="اكتب رسالتك  " class="join__input">
+                <br>
+
+                <button type="إرسال" class="join__button button">إرسال</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo">
+                <i class="ri-book-3-line"></i> طموح
+            </a>
+
+            <p class="footer__description">
+                <br>
+                طموحنا عنان السماء
+                <br>
+
+            </p>
+        </div>
+
+        <div class="footer__data grid">
+            <div>
+                <h3 class="footer__title">من نحن</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">طموح </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="footer__title">الاسئلة الشائعة</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link"> ماهي الخدمات التي تقدمها طموح؟ </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">تواصل معنا </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <address class="footer__info">
+                            TAF@gmail.com<br>
+                        </address>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer__title">مواقع التواصل الاجتماعي </h3>
+
+                <div class="footer__social">
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <span class="footer__copy">
+      &#169; جميع الحقوق  محفوظة لدى جامعة الامام محمد بن سعود الاسلامية
+   </span>
+</footer>
+
+<!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+</a>
+
+<!--=============== SCROLLREVEAL ===============-->
+<script src="assets_new/js/scrollreveal.min.js"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<!--=============== MAIN JS ===============-->
+<script src="assets_new/js/main.js"></script>
+</body>
+</html>

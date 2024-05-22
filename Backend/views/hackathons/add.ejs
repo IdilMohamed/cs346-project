@@ -1,0 +1,59 @@
+<%- contentFor('body') %>
+
+
+<section class="featured section" id="hakathons">
+    <h2 class="section__title">
+        الهاكثونات
+    </h2>
+
+
+    <div class="featured__container container">
+        <div class="featured__swiper swiper">
+            <div class="swiper-wrapper">
+                <% theData.forEach((item,index)=>{ %>
+                    <article class="featured__card swiper-slide">
+                        <img src="assets_new/img/h1.jpg" alt="image" class="hakathons__img">
+
+                        <h2 class="hakathons__title">
+                        <%- index+1 %> -   <%= item.name %>
+                        </h2>
+                        <i class="ri-building-2-line"></i>
+                        <h5 class="hakathons__title">
+                            <%= item.universityName %>
+                        </h5>
+
+                        <i class="ri-calendar-2-line"></i>
+                        <h5 class="hakathons__title">26 Feburary</h5>
+
+                        <i class="ri-map-pin-2-line"></i>
+                        <h5 class="hakathons__title">مسرعه الأعمال</h5>
+
+                        <button class="button">سجل الآن</button>
+
+                        <div class="featured__actions">
+                            <button><i class="ri-search-line"></i></button>
+                            <button><i class="ri-heart-3-line"></i></button>
+                            <button><i class="ri-eye-line"></i></button>
+                        </div>
+                    </article>
+                <% }) %>
+            </div>
+
+            <div class="swiper-button-prev">
+<!--                <i class="ri-arrow-left-s-line"></i>-->
+            </div>
+            <div class="swiper-button-next">
+<!--                <i class="ri-arrow-right-s-line"></i>-->
+            </div>
+        </div>
+
+    </div>
+</section>
+
+ 
+
+     
+
+
+
+
