@@ -93,7 +93,7 @@ and to develop the site by adding external hackathons that will benefit Imam Muh
 ### Presentation 
 
 ### Team members
--Fatmah amer Albariqe ,Taif Faris Al-atif , 
+-Fatmah amer Albariqe ,Taif Faris Al-atif , wujud bandar binmahaya
   
 
 ### Resources
