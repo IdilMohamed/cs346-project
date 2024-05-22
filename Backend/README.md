@@ -1,6 +1,14 @@
 ### Project Description and Installation Instructions on GitHub
+### Backend Project in Backend folder.
 
-#### Project Description
+### overview 
+**Overview website**: Our website serves as a collection site for university courses, hackathons, and clubs at Imam Muhammad bin Saud Islamic University, 
+making it easier for students to access the latest events and activities at the university.
+
+### Goals
+**Purpose**: The primary goal of the website is to provide a user-friendly interface for students to stay informed about university events and opportunities.
+
+#### Overview of the System 
 
 This project is a web application with two main interfaces:
 1. **Homepage**: Displays information and images related to available courses and bootcamps, along with a contact form.
@@ -26,7 +34,7 @@ This project is a web application with two main interfaces:
 - **Contact Form**: Allows visitors to contact the website administration for more information or inquiries.
 - **Add and Delete Courses**: The admin panel enables administrators to add new courses or delete unwanted courses.
 
-### System Components
+### System Components Technologies
 - **Frontend**: Built using HTML, CSS, and JavaScript, with EJS templates for data rendering.
 - **Backend**: Developed using Node.js and Express.js to handle HTTP requests and interact with the database.
 - **Database**: Uses MongoDB to store and manage course and bootcamp data.
@@ -37,8 +45,7 @@ This project is a web application with two main interfaces:
 - Node.js (version 12 or later)
 - MongoDB
 
-#### Installation Steps
-
+#### Installation Steps:
 
 
 1. **Install Dependencies**
@@ -66,9 +73,26 @@ This project is a web application with two main interfaces:
 4. **Access the Website**
    - Open your browser and navigate to `http://localhost:8000`.
 
+5. screenshots     
+  
+
+### Flow chart 
 
 
-**Admin User**
-admin@gmail.com
-1234
+
+
+### Future work
+Our goal in the future is to expand our site to all universities in the Kingdom,
+and to develop the site by adding external hackathons that will benefit Imam Muhammad bin Saud Islamic University.
+
+
+### Team members
+-Fatmah amer Albariqe
+-Taif Faris Al-atif 
+-  
+
+### Resources
+1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
+2. https://satr.codes/courses/ZlKLfufzmW/view
+3. https://youtu.be/tkGTpdtJeeM?si=wQ-wMLcOjyJsGOaY
 
