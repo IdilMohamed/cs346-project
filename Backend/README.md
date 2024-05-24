@@ -1,4 +1,3 @@
-
                                                                                                                 
                                                                                                             طموح 
 ### The backend project is located in the backend folder.
@@ -121,5 +120,4 @@ https://www.canva.com/design/DAGFZS4SheU/5KTUS8KiCanBjX6dpG3F7A/view?utm_content
 2. https://satr.codes/courses/ZlKLfufzmW/view
 3. https://youtu.be/tkGTpdtJeeM?si=wQ-wMLcOjyJsGOaY
 4.  https://www.canva.com/login/?redirect=%2Fdesign%2FDAF6Qulbwho%2F0yEXV49aWA0fLf7BXhYlJw%2Fedit
-
 
