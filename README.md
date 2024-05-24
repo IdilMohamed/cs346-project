@@ -51,7 +51,7 @@ Facilitating students' access to the latest events and activities at the univers
 ### System Components Technologies
 - *Frontend*: Built using HTML, CSS, and JavaScript, with EJS templates for data rendering.
 - *Backend*: Developed using Node.js and Express.js to handle HTTP requests and interact with the database.
-- *Database*: Uses MongoDB to store and manage course and bootcamp data.
+- *Database*: Uses MongoDB to store and manage course and bootcamp data and API Rest 
 
 ### Installation and Usage Instructions
 
