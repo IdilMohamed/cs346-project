@@ -1,0 +1,63 @@
+<%- contentFor('body') %>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/club">النوادي</a></li>
+        <li class="breadcrumb-item active" aria-current="page">اضافة نادي</li>
+    </ol>
+</nav>
+<div class="card">
+    <div class="card-header">
+        <h2  class="text-center">
+            اضافة نادي
+        </h2>
+    </div>
+    <div class="card-body">
+        <form action="/save-club" method="POST" enctype="multipart/form-data">
+            <div class="mb-3 row">
+                <label for="name" class="col-sm-2 col-form-label">الاسم</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label for="universityName" class="col-sm-2 col-form-label">اسم الجامعه </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="universityName" name="universityName">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="dateOfClub" class="col-sm-2 col-form-label">التاريخ </label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="dateOfClub" name="dateOfClub">
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label for="clubLocation" class="col-sm-2 col-form-label">العنوان </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="clubLocation" name="clubLocation">
+                </div>
+            </div>
+
+
+            <div class="mb-3">
+                <label for="imagePath" class="form-label">صورة العرض</label>
+                <input class="form-control" type="file" id="imagePath" name="imagePath">
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">
+                حفــــظ
+            </button>
+        </form>
+    </div>
+</div>
+
+
+ 
+
+     
+
+
+
+

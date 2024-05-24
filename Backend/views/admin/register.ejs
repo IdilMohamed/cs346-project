@@ -1,0 +1,45 @@
+<%- contentFor('body') %>
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="text-center">
+            التسجيل في هاكثون
+        </h2>
+    </div>
+    <div class="card-body">
+        <form action="/register-hackathon" method="POST" enctype="multipart/form-data">
+            
+            <% if (theData.length > 0) { %>
+                <% theData.forEach((item, index) => { %>
+                    <input type="hidden" value="<%= item._id %>" name="HackathonId">
+
+                    <article class="featured__card swiper-slide">
+                        <img src="assets_new/img/h1.jpg" alt="image" class="hakathons__img">
+
+                        <h2 class="hakathons__title">
+                            <%- index + 1 %> - <%= item.name %>
+                        </h2>
+                        <i class="ri-building-2-line"></i>
+                        <h5 class="hakathons__title">
+                            <%= item.universityName %>
+                        </h5>
+
+                        <i class="ri-calendar-2-line"></i>
+                        <h5 class="hakathons__title">26 February</h5>
+
+                        <i class="ri-map-pin-2-line"></i>
+                        <h5 class="hakathons__title">مسرعه الأعمال</h5>
+
+                        <button class="button">سجل الآن</button>
+                    </article>
+                <% }) %>
+            <% } else { %>
+                <p>No hackathons available for registration.</p>
+            <% } %>
+
+            <button type="submit" class="btn btn-success w-100">
+                حفــــظ
+            </button>
+        </form>
+    </div>
+</div>
